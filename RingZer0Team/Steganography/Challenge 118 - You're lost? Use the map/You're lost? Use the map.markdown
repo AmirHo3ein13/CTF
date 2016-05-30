@@ -1,0 +1,1 @@
+This photo is a map contains some words so lets check it, if you zoom and look at the photo carefuly, you can see at the right side of the photo, a small word "flag" and some else character that is flaghsdf83ksk22 and this is flag ;)
