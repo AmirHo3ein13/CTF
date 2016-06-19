@@ -1,0 +1,3 @@
+It's a spam email containing a hidden message which is hidden by spammimic(that is a mimic function). so we simply use a spammimic decoder to find the flag. the flag is:
+spamspamspamihateyou
+:)
