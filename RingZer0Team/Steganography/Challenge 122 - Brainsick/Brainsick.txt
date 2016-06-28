@@ -1,0 +1,1 @@
+if we check the file with some softwares (like binwalk) we can see that this image have something in it, if we extract it (with foremost, etc.) we can see that it contains a rar file, when we extarct it (with unrar, etc.) we can see another image that contains flag.

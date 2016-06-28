@@ -1,0 +1,22 @@
+it looks like the hex and the text may be different so lets check it:
+copy the text and paste it in a file(1). now use this command:
+cat 1 | cut -d' ' -f19- > 1_text
+it cuts the text and pastes it in 1_text.
+
+now convert the text in 1_text to hex and paste it in a file(2).
+Then, use this command:
+cat 2 | sed 's/\(.\{2\}\)/\1 /g' | sed "s/.\{54\}/&\ng" > 2_new
+it paste the hex of 1_text with \n and null in 2_new.
+
+now lets make hex of 1_text ready to compare with this command:
+cat 2_new | cut -d' ' -f-16 | sed "s/.\{3\}/&\ng" > 1_text_hex
+
+then make hex of 1 ready to compare with this command:
+cat 1 | cut -d' ' -f-16 | sed "s/.\{3\}/&\ng" > 1_hex
+
+now compare them:
+diff 1_text_hex 1_hex
+
+convert differences to char to find the flag
+here it's the flag: FLAG-NothingIsEverWhatItSeems
+:))))

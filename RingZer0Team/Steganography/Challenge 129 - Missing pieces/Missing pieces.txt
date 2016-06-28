@@ -1,0 +1,2 @@
+if we changes some thresholds by some softwares (like sonic visualiser) we can see a qr code in downside right.
+after scanning it, we have the flag. here it's the flag : flag-517qBd4tesUTUomYdz7W :)
