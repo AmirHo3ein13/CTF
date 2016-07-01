@@ -1,0 +1,11 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int k[13] = {176,214,205,246,264,255,227,237,242,244,265,270,283};
+    char u[14] = {"administrator"};
+    for(int i = 0 ; i < 13 ; i++)
+        cout<<k[i] - u[i] - i*10<<" ,";
+    return 0;
+}
